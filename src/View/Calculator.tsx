@@ -1,10 +1,14 @@
 import React from "react";
-import { Container } from "./styles";
+import { CalculatorContainer, Container } from "./styles";
+
+import Keyboard from "../Components/Keyboard";
 
 const Calculator = () => {
   return (
     <Container>
-      <CalculatorContainer></CalculatorContainer>
+      <CalculatorContainer>
+        <Keyboard />
+      </CalculatorContainer>
     </Container>
   );
 };
