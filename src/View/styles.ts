@@ -23,4 +23,7 @@ export const CalculatorContainer = styled.div`
     inset 0px -4px 5px rgba(0, 0, 0, 0.22);
   border-radius: 48px;
   padding: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 `;
